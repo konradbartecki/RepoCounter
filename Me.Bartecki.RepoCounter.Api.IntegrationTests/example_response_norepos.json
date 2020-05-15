@@ -1,0 +1,14 @@
+{
+  "data": {
+    "user": {
+      "repositories": {
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "Y3Vyc29yOnYyOpHODWDshw=="
+        },
+        "nodes": [],
+        "totalCount": 0
+      }
+    }
+  }
+}

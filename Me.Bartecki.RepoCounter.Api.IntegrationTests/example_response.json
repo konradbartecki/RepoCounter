@@ -1,0 +1,37 @@
+{
+  "data": {
+    "user": {
+      "repositories": {
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "Y3Vyc29yOnYyOpHODWDshw=="
+        },
+        "nodes": [
+          {
+            "forkCount": 1,
+            "diskUsage": 250,
+            "stargazers": {
+              "totalCount": 2
+            },
+            "watchers": {
+              "totalCount": 6
+            },
+            "name": "RepoCounter"
+          },
+          {
+            "forkCount": 3,
+            "diskUsage": 750,
+            "stargazers": {
+              "totalCount": 4
+            },
+            "watchers": {
+              "totalCount": 8
+            },
+            "name": "RepoCounter-all"
+          }
+        ],
+        "totalCount": 2
+      }
+    }
+  }
+}

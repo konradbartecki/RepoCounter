@@ -1,0 +1,21 @@
+query GetUserRepoStats($username: String!, $nextCursorId: String) {
+  user(login: $username) {
+    repositories(first: 10, after: $nextCursorId) {
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+      nodes {
+        forkCount
+        diskUsage
+        stargazers {
+          totalCount
+        }
+        watchers {
+          totalCount
+        }
+        name
+      }
+    }
+  }
+}
